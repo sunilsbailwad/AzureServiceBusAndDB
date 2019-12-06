@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\TQL_POC\\AzureServiceBus&DB\\CoreSenderApp\\CoreSenderApp\\CoreSenderApp.csproj": {}
+  },
+  "projects": {
+    "C:\\TQL_POC\\AzureServiceBus&DB\\CoreSenderApp\\CoreSenderApp\\CoreSenderApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TQL_POC\\AzureServiceBus&DB\\CoreSenderApp\\CoreSenderApp\\CoreSenderApp.csproj",
+        "projectName": "CoreSenderApp",
+        "projectPath": "C:\\TQL_POC\\AzureServiceBus&DB\\CoreSenderApp\\CoreSenderApp\\CoreSenderApp.csproj",
+        "packagesPath": "C:\\Users\\sunil.bailwad\\.nuget\\packages\\",
+        "outputPath": "C:\\TQL_POC\\AzureServiceBus&DB\\CoreSenderApp\\CoreSenderApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sunil.bailwad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Azure.ServiceBus": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
